@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #24353F;
+    height: 100vh;
+}
+
+h1 {
+    color: #17A2B8;
+
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.form-control {
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.form-control:focus {
+    color: #fff;
+}
+
+.form-control::placeholder {
+    color: #B6B6B6;
+}
+
+.card-text {
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.btn {
+    width: 90%;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+nav .btn {
+    width: 7%;
+}
+
+h5 {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+nav .btn:hover {
+
+    color: black !important;
+}
+
+
+nav {
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.text-welcom {
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
